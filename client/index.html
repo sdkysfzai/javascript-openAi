@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,14 +6,19 @@
   <link rel="icon" type="image/svg+xml" href="favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JS - OpenAI</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div id="app"></div>
-  <div id="chat_container"></div>
-  <form><textarea name="promt" rows="1" cols="1" placeholder="Ask AI..."></textarea></form>
-  <button tpye="submit"><img src="assets/send.svg" /></button>
+  <div id="app">
+    <div id="chat_container"></div>
+
+    <form>
+      <textarea name="prompt" rows="1" cols="1" placeholder="Ask AI..."></textarea>
+      <button type="submit"><img src="assets/send.svg" alt="send" />
+    </form>
+  </div>
+
   <script type="module" src="script.js"></script>
 </body>
 
